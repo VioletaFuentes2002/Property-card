@@ -1,0 +1,1247 @@
+<div class="pt5 bg-white" style="padding-left: 120px">
+  <style>
+    .cover { background-image: url('fondos/property.jpg'); background-repeat: no-repeat; background-size: 1200px 927px;width: 1200px} 
+    .value { background: rgb(119,103,210); background: linear-gradient(90deg, rgba(119,103,210,1) 3%, rgba(89,153,218,1) 100%); margin-left: 400px; margin-top: 80px;}
+    .bullet-content {background-color:gainsboro;width: 1200px; height: 927px} 
+    .divider { background: rgb(168,58,235); background: linear-gradient(180deg, rgba(168,58,235,1) 3%, rgba(89,218,182,1) 94%); height: 927px; width: 20px;} 
+    .map {background-image: url('fondos/map.jpg'); background-repeat: no-repeat; background-size: 1200px 927px;width: 1200px} 
+    .divider-map {background: rgb(61,180,242); background: linear-gradient(180deg, rgba(61,180,242,1) 3%, rgba(143,89,218,1) 94%); height: 160px; width: 5px;} 
+    .info {background: rgb(104,190,235); background: linear-gradient(188deg, rgba(104,190,235,1) 3%, rgba(143,89,218,1) 94%); height: 820px; width: 220px;} 
+    .cap {background: rgb(86,150,212); background: linear-gradient(180deg, rgba(86,150,212,1) 4%, rgba(147,107,190,1) 29%);} 
+    .alquiler {background: rgb(86,211,212); background: linear-gradient(180deg, rgba(86,211,212,1) 24%, rgba(92,232,167,1) 94%);} 
+    .mapDetroit {background-image: url('fondos/commercial_sheet_detroit_map.jpg'); background-repeat: no-repeat; background-size: 1200px 927px;width: 1200px} 
+    .dividerDetroit {background: rgb(86,211,212); background: linear-gradient(180deg, rgba(86,211,212,1) 24%, rgba(92,232,167,1) 94%); height: 170px; width: 5px;} 
+    .detroit-info {background: rgb(86,211,212); background: linear-gradient(180deg, rgba(86,211,212,1) 24%, rgba(92,232,167,1) 94%); height: 820px; width: 220px;} 
+    .info-single {background: rgb(104,190,235); background: linear-gradient(188deg,rgba(104,190,235,1) 3%, rgba(143,89,218,1) 94%); height: 700px; width: 220px;}
+  </style>
+  {{! Detroit divider gradient =>  background: rgb(61,180,242);
+background: linear-gradient(180deg, rgba(61,180,242,1) 3%, rgba(89,218,182,1) 94%); }}
+
+  <p class="cover">
+
+    <div style="width: 1200px; height: 927px">
+      <div style="background-color: white; width: 310px; margin-top: 120px; position: absolute; border-radius: 5px 30px 30px 5px; height: 170px; display: flex; flex-direction: row">
+        <img src="/logos/branding-spider-brand.svg" style="padding-right: 30px; margin-left: 10px" />
+      </div>
+
+      <div class="bg-navy" style="width: 250px; margin-top: 320px; position: absolute; border-radius: 5px 30px 30px 5px; height: 55px; display: flex; flex-direction:row">
+        <img src="/iconos/icono.png" style="height: 35px; margin-top: 5px; margin-left: 25px" />
+        <h1 style="color: white; margin-left: 12px; margin-top: 5px; font-size: 35px; font-weight: 100">Cleveland</h1>
+      </div>
+
+      <div class="bg-navy" style="width: 315px; margin-top: 390px; position: absolute; border-radius: 5px 30px 30px 5px; height: 55px">
+        <h1 style="color: white; margin-top: 5px; margin-left: 25px; font-weight:100; font-size: 35px">1303 Winston Rd</h1>
+      </div>
+
+      <div class="value" style="width: 400px; margin-top: 700px; position: absolute; border-radius: 20px 20px 20px 20px; height: 110px">
+        <h3 style="color: white; margin-top: 5px; margin-left: 25px; font-weight:lighter">{{t "precio"}}</h3>
+        <h1 style="color: white; margin-left: 25px; font-size: 85px; margin-top: -30px">$180.000</h1>
+      </div>
+
+      <div style="width: 300px; margin-top: 840px; position: absolute; margin-left: 500px; display: flex; flex-direction: row">
+        <img src="/iconos/commercial_sheet_graph_icon.png" style="height: 35px; margin-top: 2px; position:absolute; margin-left: -80px" />
+        <div style="margin-top: 2px">
+          <font size="4" style="color: white; margin-left: -40px">{{t "retorno"}}</font>
+          <font size="4" style="color: white; margin-left: -40px">{{t "estimado"}}</font>
+        </div>
+        <h1 style="color: white; font-size: 55px; margin-top: -10px;">7,64%</h1>
+      </div>
+    </div>
+
+  </p>
+
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px">
+      <div style="display:flex; flex-direction:row; margin-top: 20px; position:absolute">
+        <img src="/fondos/galeria1.png" style="margin-top: 140px; margin-right: 130px; box-shadow: 12px 12px 2px 1px rgb(79,199,241);" />
+        <img src="/fondos/galeria2.png" style="margin-top: 10px; box-shadow:  -14px 15px 2px 0px rgb(79,199,241);" />
+      </div>
+      <div style="display:flex; flex-direction:row; position:absolute; margin-top: 540px">
+        <img src="/fondos/galeria3.png" style="box-shadow: 12px 12px 2px 1px rgb(79,199,241); margin-right: 130px; margin-left: 50px; margin-top: 5px" />
+        <img src="/fondos/galeria4.png" style="box-shadow: 24px -19px 0px -10px rgb(79,199,241); margin-top: 30px" />
+      </div>
+      <div style="display:flex; flex-direction:row"></div>
+    </div>
+
+  </p>
+
+  {{!-- {{#if propiedad.single}}
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        <div style="width: 940px; margin-top: 50px; margin-left: 20px; margin-bottom: 10px">
+          <h1 class="navy" style="font-size: 45px; margin-left: 20px">{{t "resumen"}}</h1>
+          <div style="background-color: white; height: 600px; width: 920px; border-radius: 20px;">
+            <div style="margin-top: 20px; margin-left: 30px; position:absolute">
+              <font class="navy" size="5" style="font-weight:600">{{t "proyeccion"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 10px; margin-left: 5px">
+                <div style="height: 20px; width:20px; border-radius: 100px" class="bg-navy"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "inversionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$180.000</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; margin-left: 60px" class="cap"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "capitalizacionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$61.905</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; background-color:rgba(89,218,182,1); margin-left: 60px"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "alquileresDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$157.651</font>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction:row;">
+                <font size="1">$400.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 100px">
+                <font size="1">$300.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 100px">
+                <font size="1">$200.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 100px">
+                <font size="1">$100.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+            </div>
+            <div class="b--navy" style="width: 790px; height: 750px; border-top-style:dotted; margin-left: 230px; margin-top: 220px; position:absolute; z-index:10; transform: rotate(-17.8deg);"></div>
+            <div style="display: flex; flex-direction:row">
+              <div style="margin-top: 370px; margin-left: 90px">
+                <font style="position: absolute; margin-left: 15px; margin-top: -40px" size="1">$199.152</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -20px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -6px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 1</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -60px" size="1">$218.879</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -40px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -10px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 2</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -82px" size="1">$239.197</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -62px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -18px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 3</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -106px" size="1">$260.125</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -86px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -23px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 4</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -5px; margin-top: -140px; font-weight:bold" size="3">$281.681</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -112px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -28px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 5</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -160px" size="1">$303.883</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -140px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -33px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 6</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -190px" size="1">$326.751</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -170px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -38px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 7</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -222px" size="1">$350.306</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -202px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -41px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 8</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -256px" size="1">$374.567</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -236px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -44px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 9</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -10px; margin-top: -285px; font-weight:bold;font-size: 18px;" size="2">$399.556</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -262px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -47px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 10</font>
+              </div>
+            </div>
+          </div>
+          <font class="navy" size="3" style="display:block; margin-left: 10px; margin-top: 10px">{{t "info1"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info2"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info3"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info4"}}</font>
+        </div>
+
+        <div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px; background-color:white; height: 820px; width: 220px">
+            <font class="navy" size="2" style="display:block; margin-top: 710px; margin-left: 20px; font-size: 13px">{{t "retornoAnual"}}</font>
+            <font class="navy" size="2" style="display:block; margin-left: 20px; font-size: 13px">{{t "estimadoAlquileres"}}</font>
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_graph_icon.png" style="height: 34px; margin-left: 30px; margin-top: 10px" />
+              <font class="navy" size="6" style="margin-left: 10px; font-weight: bold; font-size: 34px; margin-top: 18px">7,64%</font>
+            </div>
+          </div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px" class="info-single">
+            <div style="margin-top: 60px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "INVERSION"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_invest_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$180.000</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 20px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ALQUILER"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_rent_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$22.200</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 20px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ADMIN"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_administration_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$1.776</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 20px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "IMPUESTOS"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_taxes_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$3.500</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 20px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "SEGURO"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_insurance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$950</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 20px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "MANTENIMIENTO"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 5px">
+                <img src="/iconos/commercial_sheet_maintenance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$2.200</font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-navy" style="height: 94px; width: 1200px; position:absolute; margin-top: 10px; display:flex; flex-direction:row">
+        <img src="/iconos/commercial_sheet_location_icon.png" style="height: 50px; margin-top: 25px; margin-left: 90px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">1303 Winston Rd</font>
+
+        <img src="/iconos/commercial_sheet_dimentions_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">2160 sqft</font>
+
+        <img src="/iconos/commercial_sheet_dimentions_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">2 baños</font>
+
+        <img src="/iconos/commercial_sheet_bed_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">4 habitaciones</font>
+
+      </div>
+
+    </div>
+
+  </p>
+  {{else}}
+    <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        <div style="width: 940px; margin-top: 50px; margin-left: 20px; margin-bottom: 10px">
+          <h1 class="navy" style="font-size: 45px; margin-left: 20px">{{t "resumen"}}</h1>
+          <div style="background-color: white; height: 600px; width: 920px; border-radius: 20px;">
+            <div style="margin-top: 20px; margin-left: 30px; position:absolute">
+              <font class="navy" size="5" style="font-weight:600">{{t "proyeccion"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 10px; margin-left: 5px">
+                <div style="height: 20px; width:20px; border-radius: 100px" class="bg-navy"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "inversionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$535.000</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; margin-left: 60px" class="cap"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "capitalizacionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$183.995</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; background-color:rgba(89,218,182,1); margin-left: 60px"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "alquileresDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$477.774</font>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction:row;">
+                <font size="1">$.1200.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$.1000.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$800.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$600.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$400.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$200.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+            </div>
+            <div class="b--navy" style="width: 790px; height: 750px; border-top-style:dotted; margin-left: 230px; margin-top: 220px; position:absolute; z-index:10; transform: rotate(-17.8deg);"></div>
+            <div style="display: flex; flex-direction:row">
+              <div style="margin-top: 370px; margin-left: 90px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -40px" size="1">$592.727</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -20px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -6px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 1</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -60px" size="1">$652.185</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -40px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -10px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 2</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -82px" size="1">$713.427</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -62px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -18px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 3</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -106px" size="1">$776.506</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -86px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -23px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 4</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -5px; margin-top: -140px; font-weight:bold" size="3">$841.478</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -112px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -28px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 5</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -160px" size="1">$908.399</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -140px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -33px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 6</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -190px" size="1">$977.327</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -170px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -38px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 7</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -222px" size="1">$1.048.323</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -202px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -41px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 8</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -256px" size="1">$1.121.450</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -236px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -44px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 9</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -12px; margin-top: -285px; font-weight:bold;font-size: 18px;" size="2">$1.196.770</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -262px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -47px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 10</font>
+              </div>
+            </div>
+          </div>
+          <font class="navy" size="3" style="display:block; margin-left: 10px; margin-top: 10px">{{t "info1"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info2"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info3"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info4"}}</font>
+        </div>
+
+        <div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px; background-color:white; height: 925px; width: 220px">
+            <font class="navy" size="2" style="display:block; margin-top: 825px; margin-left: 20px; font-size: 13px">{{t "retornoAnual"}}</font>
+            <font class="navy" size="2" style="display:block; margin-left: 20px; font-size: 13px">{{t "estimadoAlquileres"}}</font>
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_graph_icon.png" style="height: 34px; margin-left: 40px; margin-top: 10px" />
+              <font class="navy" size="6" style="margin-left: 10px; font-weight: bold; font-size: 34px; margin-top: 18px">7,64%</font>
+            </div>
+          </div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px;" class="info">
+            <div style="margin-top: 60px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "INVERSION"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_invest_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$535.000</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ALQUILER"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_rent_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$76.320</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ADMIN"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_administration_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$7.200</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "IMPUESTOS"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_taxes_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$6.780</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "SEGURO"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_insurance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$3.800</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "VACANCIA"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_vacancy_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$6.487</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "MANTENIMIENTO"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_maintenance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$4.960</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "UTILITIES"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_utilities_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$5.400</font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-navy" style="height: 94px; width: 1200px; margin-top: 10px; display:flex; flex-direction:row">
+        <img src="/iconos/commercial_sheet_location_icon.png" style="height: 50px; margin-top: 25px; margin-left: 90px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">17550 Lakeshore Blvd</font>
+
+        <img src="/iconos/commercial_sheet_dimentions_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">Multifamily</font>
+
+        <img src="/iconos/commercial_sheet_bed_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">8 unidades</font>
+
+      </div>
+
+    </div>
+
+  </p>
+  {{/if}} --}}
+
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        <div style="width: 940px; margin-top: 50px; margin-left: 20px; margin-bottom: 10px">
+          <h1 class="navy" style="font-size: 45px; margin-left: 20px">{{t "resumen"}}</h1>
+          <div style="background-color: white; height: 600px; width: 920px; border-radius: 20px;">
+            <div style="margin-top: 20px; margin-left: 30px; position:absolute">
+              <font class="navy" size="5" style="font-weight:600">{{t "proyeccion"}}</font>
+              <div style="display: flex; flex-direction:row; margin-top: 10px; margin-left: 5px">
+                <div style="height: 20px; width:20px; border-radius: 100px" class="bg-navy"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "inversionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$535.000</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; margin-left: 60px" class="cap"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "capitalizacionDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$183.995</font>
+                </div>
+
+                <div style="height: 20px; width:20px; border-radius: 100px; background-color:rgba(89,218,182,1); margin-left: 60px"></div>
+                <div>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 3px; display:block">{{t "alquileresDetalle"}}</font>
+                  <font size="2" class="navy" style="font-size: 18px; margin-left: 12px; margin-top: 4px; font-weight:bold">$477.774</font>
+                </div>
+              </div>
+
+              <div style="display: flex; flex-direction:row;">
+                <font size="1">$1.200.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$1.000.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$800.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$600.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$400.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+
+              <div style="display: flex; flex-direction:row; margin-top: 50px">
+                <font size="1">$200.000</font>
+                <div style="width: 820px; height: 2px; background-color:lightgrey; margin-top: 8px; margin-left: 5px"></div>
+              </div>
+            </div>
+            <div class="b--navy" style="width: 790px; height: 750px; border-top-style:dotted; margin-left: 230px; margin-top: 220px; position:absolute; z-index:10; transform: rotate(-17.8deg);"></div>
+            <div style="display: flex; flex-direction:row">
+              <div style="margin-top: 370px; margin-left: 90px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -40px" size="1">$592.727</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -20px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -6px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 1</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -60px" size="1">$652.185</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -40px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -10px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 2</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -82px" size="1">$713.427</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -62px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -18px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 3</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 12px; margin-top: -106px" size="1">$776.506</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -86px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -23px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 4</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -5px; margin-top: -140px; font-weight:bold" size="3">$841.478</font>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -112px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -28px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 5</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -160px" size="1">$908.399</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -140px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -33px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 6</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -190px" size="1">$977.327</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -170px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -38px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 7</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -222px" size="1">$1.048.323</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -202px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -41px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 8</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: 10px; margin-top: -256px" size="1">$1.121.450</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -236px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -44px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 9</font>
+              </div>
+
+              <div style="margin-top: 370px; margin-left: 82px">
+                <font style="position: absolute; margin-left: -12px; margin-top: -285px; font-weight:bold;font-size: 18px;" size="2">$1.196.770</font>
+                <div style="width: 60px; height: 285px; position:absolute; margin-top: -262px; border-radius: 5px 5px 0px 0px" class="alquiler"></div>
+                <div style="width: 60px; height: 185px; position:absolute; margin-top: -47px" class="cap"></div>
+                <div style="width: 60px; height: 180px; position:absolute;" class="bg-navy"></div>
+                <font style="position: absolute; margin-top: 180px; margin-left: 17px" size="1">año 10</font>
+              </div>
+            </div>
+          </div>
+          <font class="navy" size="3" style="display:block; margin-left: 10px; margin-top: 10px">{{t "info1"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info2"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info3"}}</font>
+          <font class="navy" size="3" style="display:block; margin-left: 10px">{{t "info4"}}</font>
+        </div>
+
+        <div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px; background-color:white; height: 925px; width: 220px">
+            <font class="navy" size="2" style="display:block; margin-top: 825px; margin-left: 20px; font-size: 13px">{{t "retornoAnual"}}</font>
+            <font class="navy" size="2" style="display:block; margin-left: 20px; font-size: 13px">{{t "estimadoAlquileres"}}</font>
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_graph_icon.png" style="height: 34px; margin-left: 40px; margin-top: 10px" />
+              <font class="navy" size="6" style="margin-left: 10px; font-weight: bold; font-size: 34px; margin-top: 18px">7,64%</font>
+            </div>
+          </div>
+          <div style="position: absolute; border-radius: 0px 0px 80px 80px;" class="info">
+            <div style="margin-top: 60px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "INVERSION"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_invest_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$535.000</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ALQUILER"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_rent_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$76.320</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "ADMIN"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_administration_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$7.200</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "IMPUESTOS"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_taxes_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$6.780</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "SEGURO"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_insurance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$3.800</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "VACANCIA"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_vacancy_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$6.487</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "MANTENIMIENTO"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_maintenance_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$4.960</font>
+              </div>
+              <div style="width: 200px; height: 1px; background-color: white; margin-top: 15px; margin-left: -15px"></div>
+            </div>
+
+            <div style="margin-top: 20px; margin-left: 25px">
+              <font size="2" style="color: white; font-weight:lighter; font-size: 17px">{{t "UTILITIES"}}</font>
+              <div style="display: flex; flex-direction:row;">
+                <img src="/iconos/commercial_sheet_utilities_icon.png" />
+                <font size="3" style="color: white; font-weight:800; font-size: 30px; margin-left: 5px; margin-top: 10px">$5.400</font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-navy" style="height: 94px; width: 1200px; margin-top: 10px; display:flex; flex-direction:row">
+        <img src="/iconos/commercial_sheet_location_icon.png" style="height: 50px; margin-top: 25px; margin-left: 90px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">17550 Lakeshore Blvd</font>
+
+        <img src="/iconos/commercial_sheet_dimentions_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">Multifamily</font>
+
+        <img src="/iconos/commercial_sheet_bed_icon.png" style="height: 50px; margin-top: 25px; margin-left: 60px" />
+        <font size="5" style="margin-left: 20px; margin-top: 40px; color:white">8 unidades</font>
+
+      </div>
+
+    </div>
+
+  </p>
+
+  {{!-- {{#if ciudad.detroit}}
+  <p class="mapDetroit">
+
+    <div style="width: 1200px; height: 927px">
+      <div style="margin-top: 40px; position: absolute; display: flex; flex-direction: row">
+        <h1 class="navy" style="font-size: 85px; margin-left: 200px; margin-top: 20px; margin-right: 60px">{{t "detroitMap"}} </h1>
+        <div class="dividerDetroit" style="margin-top: -10px"></div>
+        <div style="display: block; margin-top: -10px">
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit1"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit2"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit3"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit4"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit5"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit6"}} </font>
+          <font size="4" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "detroit7"}} </font>
+        </div>
+      </div>
+    </div>
+
+  </p>
+  {{else}}
+      <p class="map">
+    <div style="width: 1200px; height: 927px">
+      <div style="margin-top: 40px; position: absolute; display: flex; flex-direction: row">
+        <h1 class="navy" style="font-size: 85px; margin-left: 130px; margin-top: 20px; margin-right: 60px">{{t "clevelandMap"}} </h1>
+        <div class="divider-map"></div>
+        <div style="display: block;">
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map1"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map2"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map3"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map4"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map5"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map6"}} </font>
+        </div>
+      </div>
+    </div>
+
+  </p>
+  {{/if}} --}}
+
+  <p class="map">
+
+    <div style="width: 1200px; height: 927px">
+      <div style="margin-top: 40px; position: absolute; display: flex; flex-direction: row">
+        <h1 class="navy" style="font-size: 85px; margin-left: 130px; margin-top: 20px; margin-right: 60px">{{t "clevelandMap"}} </h1>
+        <div class="divider-map"></div>
+        <div style="display: block;">
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map1"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map2"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map3"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map4"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map5"}} </font>
+          <font size="5" class="navy" style="margin-left: 40px; display: block; margin-top: 5px">{{t "map6"}} </font>
+        </div>
+      </div>
+    </div>
+
+  </p>
+
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        <div style="width: 570px; margin-top: 70px; margin-left: 30px">
+
+          {{! Use this code when screen is connected to api }}
+          {{!-- {{#if ciudad.cleveland}}
+          <div style="margin-left: 35px">
+            <h1 class="navy" style="font-size: 55px; font-weight:lighter">{{t "invertir"}} </h1>
+            <h1 class="navy" style="font-size: 85px; margin-top: -25px">{{t "cleveland"}} </h1>
+          </div>
+          <div style="margin-top: 90px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "porcentaje"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "ocupadas"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "valor"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "dolares"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "ciudades"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "estadosUnidos"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "mercado"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "pasiva"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "estabilidad"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "alquiler"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "incremento"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "superior"}}</h3>
+          </div>
+          {{else}}
+
+          <div style="margin-left: 35px">
+            <h1 class="navy" style="font-size: 55px; font-weight:lighter">{{t "invertir"}} </h1>
+            <h1 class="navy" style="font-size: 85px; margin-top: -25px">{{t "detroit"}} </h1>
+          </div>
+          <div style="margin-top: 90px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "estado"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "michigan"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "poblada"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "habitantes"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "2001"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "millones"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "2015"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "cuarta"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "inversiones"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "movilidad"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "50"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "inquilinos"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "capitalizacion"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "renta"}}</h3>
+          </div>
+
+        </div>
+        <div class="divider">
+        </div>
+
+        <div>
+          <img src="/fondos/detroit.png" style="height: 927px;" />
+        </div>
+          {{/if}} --}}
+
+          <div style="margin-left: 35px">
+            <h1 class="navy" style="font-size: 55px; font-weight:lighter">{{t "invertir"}} </h1>
+            <h1 class="navy" style="font-size: 85px; margin-top: -25px">{{t "cleveland"}} </h1>
+          </div>
+          <div style="margin-top: 90px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "porcentaje"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "ocupadas"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "valor"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "dolares"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "ciudades"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "estadosUnidos"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "mercado"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "pasiva"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "estabilidad"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 40px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "alquiler"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "incremento"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "superior"}}</h3>
+          </div>
+
+        </div>
+        <div class="divider">
+        </div>
+
+        <div>
+          <img src="/fondos/cleveland.png" style="height: 927px;" />
+        </div>
+      </div>
+
+    </div>
+
+  </p>
+
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        {{! Use this code when the screen is conected to api }}
+        {{!-- {{#if ciudad.cleveland}}
+                  <div>
+          <img src="/fondos/segunda-pagina-cleveland.png" style="height: 927px;" />
+        </div>
+        <div class="divider">
+        </div>
+
+        <div style="width: 570px; margin-top: 70px; margin-left: 30px">
+
+          <div style="margin-top: 90px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "segunda"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "ohio"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "poblacion"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "clinic"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "elegida"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "hospital"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "sub"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "empresas"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "sector"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "desarrollo"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "NASA"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "10"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "principales"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "millenial"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "educacion"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "PBI"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "122"}}</h3>
+          </div>
+
+        </div> --}}
+        {{!-- 
+        {{else}}
+
+        <div>
+          <img src="/fondos/segunda-pagina-detroit.png" style="height: 927px;" />
+        </div>
+        <div class="divider">
+        </div>
+
+        <div style="width: 570px; margin-top: 70px; margin-left: 30px">
+
+          <div style="margin-top: 90px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "microsoft"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "quicken"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "operaciones"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "conocida"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "industria"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "fabricantes"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "fiat"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "metro"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "promedio"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "mes"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "desde"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "tenido"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "porciento"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:rgba(89,218,182,1)"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "accesibles"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "comprar"}}</h3>
+          </div>
+
+        </div>
+
+        {{/if}} --}}
+
+        <div>
+          <img src="/fondos/segunda-pagina-cleveland.png" style="height: 927px;" />
+        </div>
+        <div class="divider">
+        </div>
+
+        <div style="width: 570px; margin-top: 70px; margin-left: 30px">
+
+          <div style="margin-top: 90px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "segunda"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "ohio"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "poblacion"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "clinic"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "elegida"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "hospital"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "sub"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "empresas"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "sector"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "desarrollo"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "NASA"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "10"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "principales"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "millenial"}}</h3>
+            <h3 class="navy" style="margin-top: -14px; font-size: 20px;">{{t "educacion"}}</h3>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 20px">
+            <div style="display: flex; flex-direction:row">
+              <div style="height: 13px; width: 13px; border-radius: 100px 100px 100px 100px; background-color:mediumpurple"></div>
+              <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-left: 5px">{{t "PBI"}}</h3>
+            </div>
+            <h3 class="navy" style="margin-top: -10px; font-size: 20px; margin-top: 1px">{{t "122"}}</h3>
+          </div>
+
+        </div>
+      </div>
+
+    </div>2
+  </p>
+
+  <p class="bullet-content">
+
+    <div style="width: 1200px; height: 927px; margin-top: 10px">
+      <div style="display:flex; flex-direction:row">
+        <div style="width: 570px; margin-top: 70px; margin-left: 30px">
+
+          <div style="margin-top: 320px; margin-left: 170px">
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_instagram_icon.png" style="height: 30px;" />
+              <a href="https://www.instagram.com/spiderinvest"><h3 class="navy" style="font-size: 20px; margin-left: 10px">{{t "instagram"}}</h3></a>
+            </div>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 170px">
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_youtube_icon.png" style="height: 25px; margin-top: -20px" />
+              <a href="https://www.youtube.com/channel/UCgfO0zELN7Jyj3Om97PgIcA?sub_confirmation=1"><h3 class="navy" style="margin-top: -20px; font-size: 20px; margin-left: 10px">{{t "youtube"}}</h3></a>
+            </div>
+          </div>
+
+          <div style="margin-top: 40px; margin-left: 170px">
+            <div style="display: flex; flex-direction:row">
+              <img src="/iconos/commercial_sheet_facebook_icon.png" style="height: 30px; margin-left: 8px; margin-top: -20px" />
+              <a href="https://www.facebook.com/SpiderInvestments/"><h3 class="navy" style="margin-top: -18px; font-size: 20px; margin-left: 18px">{{t "facebook"}}</h3></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="divider">
+        </div>
+
+        <div>
+          <img src="/fondos/spider.png" style="height: 927px;" />
+        </div>
+      </div>
+
+    </div>
+
+  </p>
+
+  {{!-- {{#each imagenes as |imagen|}}
+    <div class="ba b--gray ma1 overflow-x-scroll tc">
+      <div style={{estilo}}>
+        <img src={{imagen.ruta}} style={{estilo}} />
+      </div>
+    </div>
+  {{/each}} --}}
+</div>
